@@ -58,7 +58,7 @@ ol {
     font-size: 0.93rem;
 }
 
-#feedback-valutation ol {
+#valutations {
     margin: 2rem 0;
     padding: 0;
     display: flex;
@@ -82,7 +82,12 @@ ol {
     background-color: var(--color-orange-400);
 }
 
-#feedback-valutation a {
+.active {
+    color: white;
+    background-color: var(--color-grey-200);
+}
+
+#feedback-valutation-section a {
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;
@@ -97,7 +102,7 @@ ol {
     transition: 0.3s ease-out;
 }
 
-#feedback-valutation a:hover {
+#feedback-valutation-section a:hover {
     background-color: white;
     color: var(--color-orange-400);
 }
@@ -116,6 +121,18 @@ footer {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 375px) {
