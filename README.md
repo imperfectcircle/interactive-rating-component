@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/imperfectcircle)
--   Linkedin - [@yourusername](https://www.linkedin.com/in/fabio-angelici/)
+-   Frontend Mentor - [@imperfectcircle](https://www.frontendmentor.io/profile/imperfectcircle)
+-   Linkedin - [@fabio-angelici](https://www.linkedin.com/in/fabio-angelici/)
